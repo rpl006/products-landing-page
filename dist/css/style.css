@@ -61,3 +61,43 @@ img {
 .navbar .nav a:hover {
   color: #00d9ff;
 }
+
+.section-a {
+  margin: 2rem 0;
+}
+
+.section-a .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-a h1 {
+  font-size: 4rem;
+  color: var(--primary-color);
+}
+.section-a p {
+  margin: 1rem 0;
+}
+.section-a a {
+  color: var(--secondary-color);
+}
+
+/* Utilities */
+.btn {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 0.8rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border-radius: 30px;
+}
+.btn:hover {
+  background: #00d9ff;
+  color: var(--primary-color);
+  font-weight: bold;
+}
