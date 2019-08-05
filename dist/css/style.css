@@ -177,6 +177,49 @@ img {
   margin-right: 0.5rem;
 }
 
+/*Email Form*/
+
+.email-form {
+  width: 100%;
+  display: inline-block;
+  background-color: #555;
+  position: relative;
+  border-radius: 20px;
+  line-height: 0;
+  margin-top: 1rem;
+}
+.email-form .form-control {
+  display: inline-block;
+  border: 0;
+  outline: 0;
+  font-size: 1rem;
+  color: #dddddd;
+  background-color: transparent;
+  font-family: inherit;
+  margin: 0;
+  padding: 0 3rem 0 1.5rem;
+  width: 100%;
+  height: 45px;
+  border-radius: 20px;
+}
+.email-form .submit {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45px;
+  height: 45px;
+  background-color: #eee;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  color: #333;
+  cursor: pointer;
+  border-radius: 0 20px 20px 0;
+}
 /* Utilities */
 .btn {
   display: inline-block;
