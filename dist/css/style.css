@@ -1,6 +1,6 @@
 :root {
   --primary-color: #333;
-  --secondary-color: #444;
+  --secondary-color: #fff;
   --overlay-color: rgba(0, 0, 0, 0.7);
 }
 * {
@@ -32,4 +32,32 @@ img {
   margin: auto;
   overflow: hidden;
   padding: 0 2rem;
+}
+.navbar {
+  font-size: 1.2rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+.navbar .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.navbar .logo {
+  font-size: 2rem;
+}
+
+.navbar .nav {
+  justify-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .nav a {
+  padding: 0 1rem;
+}
+.navbar .nav a:hover {
+  color: #00d9ff;
 }
