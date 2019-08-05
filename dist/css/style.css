@@ -150,7 +150,7 @@ img {
 
 .section-footer {
   background: var(--primary-color);
-  padding: 4rem 0;
+  padding: 4rem 0 0;
 }
 .section-footer .container {
   display: grid;
@@ -176,7 +176,17 @@ img {
   color: #555;
   margin-right: 0.5rem;
 }
-
+.footer-bottom .container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 3rem;
+  text-align: center;
+  margin-top: 3rem;
+  padding-bottom: 1rem;
+}
+.footer-bottom .container a {
+  color: #00d9ff;
+}
 /*Email Form*/
 
 .email-form {
@@ -287,8 +297,8 @@ img {
     grid-template-columns: 1fr;
     text-align: center;
   }
-  .section-footer div:nth-child(2),
-  .section-footer div:nth-child(3) {
+  .section-footer .container div:nth-child(2),
+  .section-footer .container div:nth-child(3) {
     display: none;
   }
 }
